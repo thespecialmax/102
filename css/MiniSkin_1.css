@@ -1,0 +1,79 @@
+.E015-Default .flip_li {
+    float: left;
+    list-style: none outside none;
+}
+
+.E015-Default .flip_ul {
+    padding: 0;
+}
+
+.E015-Default .banner
+{
+	/* The banner divs */
+	position: relative;
+	width: 125px;
+	height: 125px;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+}
+
+.E015-Default .banner img
+{
+	/* The banner divs */
+	display: block;
+	border: none;
+}
+
+.E015-Default .banner .corner
+{
+	/* The dark animated divs */
+	position: absolute;
+	z-index: 100;
+	background-color: #222;
+	width: 60px;
+	height: 60px;
+	cursor: pointer; /*	Setting a really big value for border-radius 		will make the divs perfect circles */
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+/*	Positioning the animated divs outside the
+	corners of the visible banner area: */
+
+.E015-Default .banner .cornerTL
+{
+	left: -63px;
+	top: -63px;
+}
+.E015-Default .banner .cornerTR
+{
+	right: -63px;
+	top: -63px;
+}
+.E015-Default .banner .cornerBL
+{
+	left: -63px;
+	bottom: -63px;
+}
+.E015-Default .banner .cornerBR
+{
+	right: -63px;
+	bottom: -63px;
+}
+
+.E015-Default .banner .companyInfo
+{
+	/* The "Visit Company" text */
+	display: none; /* hidden by default */
+	left: 0;
+	top: 0;
+	z-index: 200;
+	position: absolute;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 11px;
+	cursor: pointer;
+	padding:10px 10px;	
+}

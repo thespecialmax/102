@@ -1,0 +1,37 @@
+﻿/* For DNN8 */
+.EffectCollection * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.sponsorFlip {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.E016-Default div.pagination {
+    position:inherit;
+    display:block;
+}
+
+.E032-Default .grid {
+    max-width:none;
+}
+
+    .E032-Default .grid figure {
+    width:auto;
+    background:none;
+    text-align:left;
+    max-height:none;
+    }
+.E032-Default .grid figcaption {
+    position: inherit;
+    width: auto;
+    color:black;
+    text-transform:none;
+}
+.E032-Default figure img {
+    opacity:1;
+}
